@@ -1,7 +1,4 @@
 #include <iostream>
-//#include <math.h>
-//#include <stdlib.h>
-//#include <iomanip>
 #include <queue>
 
 using namespace std;
@@ -10,6 +7,7 @@ int main()
 {
     priority_queue<int> Q;
     int a,b,c;
+    //Find A B C
     for(int i=0;i<3;i++)
     {
         cin >> a;
@@ -21,8 +19,11 @@ int main()
     Q.pop();
     a = Q.top();
 
+    //Get A B C Order
     string S;
     cin >> S;
+
+    //Print Answer
     for(int i =0;i<3;i++)
     {
         switch(S[i])

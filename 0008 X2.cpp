@@ -1,8 +1,4 @@
 #include <iostream>
-//#include <math.h>
-//#include <stdlib.h>
-//#include <iomanip>
-//#include <queue>
 
 using namespace std;
 
