@@ -9,14 +9,15 @@ using namespace std;
 
 int main()
 {
+    int sum[3] = {0,0,0};
     int n;
-    cin >> n;
-    string s;
-    cin >> s;
     char a = 'A';
+    string s;
     pair<char,char> b = make_pair('B','A');
     pair<char,char> c = make_pair('C','C');
-    int sum[3] = {0,0,0};
+    
+    cin >> n;
+    cin >> s;
     for(int i=0;i<n;i++)
     {
         char t = s[i];
