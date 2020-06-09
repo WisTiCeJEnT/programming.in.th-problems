@@ -9,7 +9,7 @@ void typing(int x, int y, int count)
 {
     if(x == 0 && y == 0)
     {
-        while(!ans.empty() && count>=0)
+        while(!ans.empty() && count>0)
         {
             ans.pop_back();
             count--;
